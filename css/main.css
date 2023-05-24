@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.map {
+  height: 99vh;
+  width: 100vw;
+}
+header {
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  list-style-type: none;
+}
+.search-box {
+  width: 30%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 15px 0px 15px;
+  box-shadow: 4px 1px 3px lightgray;
+  color: gray;
+}
+.menu {
+  width: 60%;
+  height: 50px;
+  margin: 10px 15px 0px 15px;
+}
+.account {
+  width: 20%;
+  height: 50px;
+  margin: 10px 15px 0px 45px;
+  color: #242f36;
+}
+.search-box ul {
+  display: flex;
+}
+.search-box ul li {
+  margin: 12px 12px 12px 12px;
+}
+.search-box .search {
+  border: none;
+  outline: none;
+  padding: 3px 10px 5px 5px;
+  display: inline-block;
+  font-size: 16px;
+}
+.search-box .dir {
+  color: blue;
+  border-left: 1px solid gray;
+  padding-left: 15px;
+  margin-left: -12px;
+}
+.menu ul,
+.menu li {
+  display: flex;
+}
+.menu ul li {
+  background-color: white;
+  border-radius: 18px;
+  padding: 4px 10px 4px 10px;
+  margin: 8px 2px 12px 2px;
+  box-shadow: 4px 1px 3px lightgray;
+}
+.menu ul li p {
+  color: #3e505c;
+  margin: 2px 0px 0px 5px;
+}
+.menu li:hover {
+  background-color: #f8f8f8;
+}
+.account ul {
+  display: flex;
+}
+.account ul li {
+  padding: 4px 10px 4px 10px;
+  margin: 8px 2px 12px 2px;
+}
+.account ul li img {
+  margin: -4px 0px 0px 0px;
+  border-radius: 28px;
+}
